@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "Cadence",
+    "slug": "cadence",
+    "scheme": "cadence",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F1EA",
+    "ios": {
+      "bundleIdentifier": "link.gatete.cadence",
+      "supportsTablet": false,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      }
+    },
+    "android": {
+      "package": "link.gatete.cadence",
+      "adaptiveIcon": {
+        "backgroundColor": "#5A3E30",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.POST_PROMOTED_NOTIFICATIONS"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 140,
+          "backgroundColor": "#5A3E30"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#F07C25",
+          "icon": "./assets/notification-icon.png"
+        }
+      ],
+      [
+        "expo-widgets",
+        {
+          "widgets": []
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "17.0"
+          }
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

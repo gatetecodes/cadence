@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "expo.modules.cadencelivenotification.cadence-live-notification-release-10:/drawable-v21/notification_action_background.xml",
+        "source": "expo.modules.cadencelivenotification.cadence-live-notification-core-1.17.0-2:/drawable-v21/notification_action_background.xml"
+    }
+]

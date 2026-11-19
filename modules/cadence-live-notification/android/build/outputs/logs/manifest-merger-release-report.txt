@@ -1,0 +1,62 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:1:1-24:12
+INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:1:1-24:12
+	package
+		INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:2:3-75
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:2:20-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:3:3-79
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:3:20-76
+uses-permission#android.permission.POST_PROMOTED_NOTIFICATIONS
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:4:3-84
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:4:20-81
+application
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:6:3-23:17
+receiver#expo.modules.cadencelivenotification.LiveFastReceiver
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:7:5-14:16
+	android:exported
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:9:7-31
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:8:7-75
+intent-filter#action:name:link.gatete.cadence.LIVE_FAST_DISMISSED+action:name:link.gatete.cadence.LIVE_FAST_REFRESH
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:10:7-13:23
+action#link.gatete.cadence.LIVE_FAST_REFRESH
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:11:9-72
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:11:17-69
+action#link.gatete.cadence.LIVE_FAST_DISMISSED
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:12:9-74
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:12:17-71
+receiver#expo.modules.cadencelivenotification.LiveFastBootReceiver
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:15:5-22:16
+	android:exported
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:17:7-30
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:16:7-79
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:18:7-21:23
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:19:9-71
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:19:17-68
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:20:9-76
+	android:name
+		ADDED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:20:17-73
+uses-sdk
+INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml
+INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml

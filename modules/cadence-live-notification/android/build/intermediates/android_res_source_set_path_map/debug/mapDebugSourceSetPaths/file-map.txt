@@ -1,0 +1,9 @@
+expo.modules.cadencelivenotification.cadence-live-notification-pngs-0 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/generated/res/pngs/debug
+expo.modules.cadencelivenotification.cadence-live-notification-updated_navigation_xml-1 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/generated/updated_navigation_xml/debug
+expo.modules.cadencelivenotification.cadence-live-notification-mergeDebugResources-2 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+expo.modules.cadencelivenotification.cadence-live-notification-mergeDebugResources-3 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+expo.modules.cadencelivenotification.cadence-live-notification-debug-4 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/intermediates/merged_res/debug/mergeDebugResources
+expo.modules.cadencelivenotification.cadence-live-notification-debug-5 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/build/intermediates/packaged_res/debug/packageDebugResources
+expo.modules.cadencelivenotification.cadence-live-notification-debug-6 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/debug/res
+expo.modules.cadencelivenotification.cadence-live-notification-main-7 /Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/res
+gradleHome-0 /Users/marcelgatete/.gradle

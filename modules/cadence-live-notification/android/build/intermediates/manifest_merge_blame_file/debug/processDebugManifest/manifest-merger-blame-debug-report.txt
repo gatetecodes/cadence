@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.cadencelivenotification" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+7-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:2:3-75
+7-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:2:20-72
+8    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+8-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:3:3-79
+8-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:3:20-76
+9    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS" />
+9-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:4:3-84
+9-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:4:20-81
+10
+11    <application>
+11-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:6:3-23:17
+12        <receiver
+12-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:7:5-14:16
+13            android:name="expo.modules.cadencelivenotification.LiveFastReceiver"
+13-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:8:7-75
+14            android:exported="false" >
+14-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:9:7-31
+15            <intent-filter>
+15-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:10:7-13:23
+16                <action android:name="link.gatete.cadence.LIVE_FAST_REFRESH" />
+16-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:11:9-72
+16-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:11:17-69
+17                <action android:name="link.gatete.cadence.LIVE_FAST_DISMISSED" />
+17-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:12:9-74
+17-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:12:17-71
+18            </intent-filter>
+19        </receiver>
+20        <receiver
+20-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:15:5-22:16
+21            android:name="expo.modules.cadencelivenotification.LiveFastBootReceiver"
+21-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:16:7-79
+22            android:exported="true" >
+22-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:17:7-30
+23            <intent-filter>
+23-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:18:7-21:23
+24                <action android:name="android.intent.action.BOOT_COMPLETED" />
+24-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:19:9-71
+24-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:19:17-68
+25                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+25-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:20:9-76
+25-->/Users/marcelgatete/Developer/cadence/modules/cadence-live-notification/android/src/main/AndroidManifest.xml:20:17-73
+26            </intent-filter>
+27        </receiver>
+28    </application>
+29
+30</manifest>
