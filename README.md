@@ -2,8 +2,6 @@
 
 A calm, ad-free intermittent fasting tracker for iOS and Android. One tap to start, a live timer on the lock screen for the whole fast, and nothing else in the way.
 
-Requirements live in the BRD: https://claude.ai/artifact/DWwpmHCn9f94bGwt25VJWy
-
 ## Stack
 
 Expo SDK 58 (React Native 0.88, New Architecture) · TypeScript · Expo Router · Zustand · expo-sqlite + Drizzle · react-native-svg · expo-notifications · expo-widgets (iOS Live Activity) · a local Kotlin module for the Android live notification.
